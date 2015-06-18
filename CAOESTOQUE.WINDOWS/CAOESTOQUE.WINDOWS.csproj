@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D84A1CEE-86A8-46B8-8FD5-7A02E2571D61}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CAOESTOQUE.WINDOWS</RootNamespace>
+    <AssemblyName>CAOESTOQUE.WINDOWS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Publicacao\windowsform\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Matiasam-Ios7-Style-Stock.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9CC401937A2A70E727CC9E7FFC7E69DD4C555794</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CAOESTOQUE.WINDOWS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAOESTOQUEDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CAOESTOQUEDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroAnimais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroAnimais.Designer.cs">
+      <DependentUpon>FrmCadastroAnimais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroCategorias.Designer.cs">
+      <DependentUpon>FrmCadastroCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroCliente.Designer.cs">
+      <DependentUpon>FrmCadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroCategoriaeProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroCategoriaeProduto.Designer.cs">
+      <DependentUpon>FrmCadastroCategoriaeProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroProdutos.Designer.cs">
+      <DependentUpon>FrmCadastroProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaCliente.Designer.cs">
+      <DependentUpon>FrmConsultaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEntradaEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEntradaEstoque.Designer.cs">
+      <DependentUpon>FrmEntradaEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEstoque.Designer.cs">
+      <DependentUpon>FrmEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRelatorioPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRelatorioPeriodo.Designer.cs">
+      <DependentUpon>FrmRelatorioPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRelatorioPeriodoDetalhado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRelatorioPeriodoDetalhado.Designer.cs">
+      <DependentUpon>FrmRelatorioPeriodoDetalhado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSaidaProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSaidaProdutos.Designer.cs">
+      <DependentUpon>FrmSaidaProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVendasRealizadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVendasRealizadas.Designer.cs">
+      <DependentUpon>FrmVendasRealizadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVendasRealizadasItens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVendasRealizadasItens.Designer.cs">
+      <DependentUpon>FrmVendasRealizadasItens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sobre.Designer.cs">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemCore_EnumerableDebugView.cs" />
+    <EmbeddedResource Include="FrmCadastroAnimais.resx">
+      <DependentUpon>FrmCadastroAnimais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastroCategorias.resx">
+      <DependentUpon>FrmCadastroCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastroCliente.resx">
+      <DependentUpon>FrmCadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastroCategoriaeProduto.resx">
+      <DependentUpon>FrmCadastroCategoriaeProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastroProdutos.resx">
+      <DependentUpon>FrmCadastroProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaCliente.resx">
+      <DependentUpon>FrmConsultaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEntradaEstoque.resx">
+      <DependentUpon>FrmEntradaEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEstoque.resx">
+      <DependentUpon>FrmEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRelatorioPeriodo.resx">
+      <DependentUpon>FrmRelatorioPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRelatorioPeriodoDetalhado.resx">
+      <DependentUpon>FrmRelatorioPeriodoDetalhado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSaidaProdutos.resx">
+      <DependentUpon>FrmSaidaProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVendasRealizadas.resx">
+      <DependentUpon>FrmVendasRealizadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVendasRealizadasItens.resx">
+      <DependentUpon>FrmVendasRealizadasItens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sobre.resx">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CAOESTOQUE.WINDOWS_TemporaryKey.pfx" />
+    <None Include="CAOESTOQUEDataSet.xsc">
+      <DependentUpon>CAOESTOQUEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CAOESTOQUEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CAOESTOQUEDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CAOESTOQUEDataSet.xss">
+      <DependentUpon>CAOESTOQUEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAOESTOQUE.DAO\CAOESTOQUE.DAO.csproj">
+      <Project>{59f46317-92ef-4a3b-9ed7-31972b8967ab}</Project>
+      <Name>CAOESTOQUE.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAOESTOQUE.ENTITY\CAOESTOQUE.ENTITY.csproj">
+      <Project>{d65e4e75-cb0e-4b85-aa5c-43ce60afa250}</Project>
+      <Name>CAOESTOQUE.ENTITY</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAOESTOQUE.NEGOCIOS\CAOESTOQUE.NEGOCIOS.csproj">
+      <Project>{7d563fb1-bc9d-40d6-9aca-a473176ff864}</Project>
+      <Name>CAOESTOQUE.NEGOCIOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAOESTOQUE.REPOSITORIO\CAOESTOQUE.REPOSITORIO.csproj">
+      <Project>{49bdf79f-a9ad-4ca1-bf53-2cf653ad0f6d}</Project>
+      <Name>CAOESTOQUE.REPOSITORIO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controle-estoques%281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\How-to-password-protect-folders-in-Windows-71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteRed1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Matiasam-Ios7-Style-Stock.ico" />
+    <None Include="Resources\search-icon %281%29.png" />
+    <None Include="Resources\Search-icon1.png" />
+    <None Include="Resources\Search-icon.png" />
+    <None Include="Resources\create-icon.png" />
+    <None Include="Resources\open-file-icon.png" />
+    <None Include="Resources\open-31.ico" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\computer-icon-open-folder-7692184.jpg" />
+    <None Include="Resources\open-3.ico" />
+    <None Include="Resources\estima logo jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

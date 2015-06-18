@@ -1,0 +1,140 @@
+C:\projetos\valdo.dal\Principal\bin\Debug\Principal.exe
+C:\projetos\valdo.dal\Principal\bin\Debug\Principal.pdb
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.Properties.Resources.resources
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.exe
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.pdb
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.Principal.resources
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.FrmLogin.resources
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.frmPrincipal.resources
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.FrmCadastroCliente.resources
+C:\projetos\valdo.dal\Principal\bin\Debug\valdo.negocios.dll
+C:\projetos\valdo.dal\Principal\bin\Debug\valdo.negocios.pdb
+C:\projetos\valdo.dal\Principal\bin\Debug\valdo.dal.dll
+C:\projetos\valdo.dal\Principal\bin\Debug\valdo.entity.dll
+C:\projetos\valdo.dal\Principal\bin\Debug\valdo.dal.pdb
+C:\projetos\valdo.dal\Principal\bin\Debug\valdo.entity.pdb
+F:\valdo.dal\Principal\obj\x86\Debug\Principal.exe
+F:\valdo.dal\Principal\obj\x86\Debug\Principal.pdb
+F:\valdo.dal\Principal\bin\Debug\Principal.exe
+F:\valdo.dal\Principal\bin\Debug\Principal.pdb
+F:\valdo.dal\Principal\bin\Debug\valdo.dal.dll
+F:\valdo.dal\Principal\bin\Debug\valdo.entity.dll
+F:\valdo.dal\Principal\bin\Debug\valdo.negocios.dll
+F:\valdo.dal\Principal\bin\Debug\valdo.dal.pdb
+F:\valdo.dal\Principal\bin\Debug\valdo.entity.pdb
+F:\valdo.dal\Principal\bin\Debug\valdo.negocios.pdb
+F:\valdo.dal\Principal\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\valdo.dal\Principal\obj\x86\Debug\Principal.FrmCadastroCliente.resources
+F:\valdo.dal\Principal\obj\x86\Debug\Principal.FrmLogin.resources
+F:\valdo.dal\Principal\obj\x86\Debug\Principal.frmPrincipal.resources
+F:\valdo.dal\Principal\obj\x86\Debug\Principal.Principal.resources
+F:\valdo.dal\Principal\obj\x86\Debug\Principal.Properties.Resources.resources
+F:\valdo.dal\Principal\obj\x86\Debug\Principal.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\valdo.dal\Principal\obj\x86\Debug\Principal.exe
+C:\Users\Carlos\Desktop\valdo.dal\Principal\obj\x86\Debug\Principal.pdb
+C:\Users\Carlos\Desktop\valdo.dal\Principal\bin\Debug\Principal.exe
+C:\Users\Carlos\Desktop\valdo.dal\Principal\bin\Debug\Principal.pdb
+C:\Users\Carlos\Desktop\valdo.dal\Principal\bin\Debug\valdo.dal.dll
+C:\Users\Carlos\Desktop\valdo.dal\Principal\bin\Debug\valdo.entity.dll
+C:\Users\Carlos\Desktop\valdo.dal\Principal\bin\Debug\valdo.negocios.dll
+C:\Users\Carlos\Desktop\valdo.dal\Principal\bin\Debug\valdo.dal.pdb
+C:\Users\Carlos\Desktop\valdo.dal\Principal\bin\Debug\valdo.entity.pdb
+C:\Users\Carlos\Desktop\valdo.dal\Principal\bin\Debug\valdo.negocios.pdb
+C:\Users\Carlos\Desktop\valdo.dal\Principal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\valdo.dal\Principal\obj\x86\Debug\Principal.FrmCadastroCliente.resources
+C:\Users\Carlos\Desktop\valdo.dal\Principal\obj\x86\Debug\Principal.FrmLogin.resources
+C:\Users\Carlos\Desktop\valdo.dal\Principal\obj\x86\Debug\Principal.frmPrincipal.resources
+C:\Users\Carlos\Desktop\valdo.dal\Principal\obj\x86\Debug\Principal.Principal.resources
+C:\Users\Carlos\Desktop\valdo.dal\Principal\obj\x86\Debug\Principal.Properties.Resources.resources
+C:\Users\Carlos\Desktop\valdo.dal\Principal\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Carlos\Desktop\valdo.dal\Principal\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\projetos\valdo.dal\Principal\bin\Debug\Principal.exe.manifest
+C:\projetos\valdo.dal\Principal\bin\Debug\Principal.application
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.exe.manifest
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.application
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.FrmAlterarCliente.resources
+C:\projetos\valdo.dal\Principal\bin\Debug\Principal.exe.config
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.FrmCadastrarAgendamento.resources
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\GenerateResource.write.3932.tlog
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\GenerateResource.write.3933.tlog
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\GenerateResource.write.3948.tlog
+C:\projetos\valdo.dal\Principal\obj\x86\Debug\Principal.FrmListaRapida.resources
+C:\projetos\Valdo Projeto\Principal\bin\Debug\Principal.exe.config
+C:\projetos\Valdo Projeto\Principal\bin\Debug\Principal.exe.manifest
+C:\projetos\Valdo Projeto\Principal\bin\Debug\Principal.application
+C:\projetos\Valdo Projeto\Principal\bin\Debug\Principal.exe
+C:\projetos\Valdo Projeto\Principal\bin\Debug\Principal.pdb
+C:\projetos\Valdo Projeto\Principal\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\projetos\Valdo Projeto\Principal\bin\Debug\valdo.dal.dll
+C:\projetos\Valdo Projeto\Principal\bin\Debug\valdo.entity.dll
+C:\projetos\Valdo Projeto\Principal\bin\Debug\valdo.negocios.dll
+C:\projetos\Valdo Projeto\Principal\bin\Debug\valdo.dal.pdb
+C:\projetos\Valdo Projeto\Principal\bin\Debug\valdo.entity.pdb
+C:\projetos\Valdo Projeto\Principal\bin\Debug\valdo.negocios.pdb
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmCadastrarAgendamento.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmAlterarCliente.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmCadastroCliente.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmConsultaPagtosPendentes.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmListaServico.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmPagamento.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmPagamentosPendentes.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmPagos.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmLogin.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmPrincipal.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmConsultaCliente.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmRelatorioClientes.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmRelatorioDiario.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.Principal.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.Properties.Resources.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.Sobre.resources
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\RdlCompile.cache
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\RdlCompile.compiled
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.exe.manifest
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.application
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.exe
+C:\projetos\Valdo Projeto\Principal\obj\x86\Debug\Principal.pdb
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\Principal.exe.config
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.exe
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.pdb
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\Principal.exe.manifest
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\Principal.application
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\Principal.exe
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\Principal.pdb
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\Office.dll
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\valdo.dal.dll
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\valdo.entity.dll
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\valdo.negocios.dll
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\valdo.dal.pdb
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\valdo.entity.pdb
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\valdo.negocios.pdb
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\bin\Debug\Office.xml
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.csprojResolveAssemblyReference.cache
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmCadastrarAgendamento.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmAlterarCliente.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmCadastroCliente.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmConsultaPagtosPendentes.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmListaServico.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmPagamento.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmPagamentosPendentes.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmPagos.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmLogin.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmPrincipal.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmConsultaCliente.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmRelatorioClientes.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.FrmRelatorioDiario.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.Principal.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.Properties.Resources.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.Sobre.resources
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.csproj.GenerateResource.Cache
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\RdlCompile.cache
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\RdlCompile.compiled
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.exe.manifest
+C:\Projetos\Valdo Projeto\Valdo Projeto\Principal\obj\x86\Debug\Principal.application

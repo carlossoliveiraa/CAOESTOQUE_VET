@@ -1,0 +1,78 @@
+USE [CAOESTOQUE]
+GO
+
+/****** Object:  Trigger [dbo].[TR_Entrada]    Script Date: 09/24/2014 13:59:39 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER TRIGGER [dbo].[TR_Entrada]
+   ON  [dbo].[EntradaProdutos]
+  for  INSERT
+AS 
+BEGIN
+	 DECLARE @Id_loja int,
+	         @Id_Produto int,
+	         @QtdeEntrada decimal(18, 3);
+	 
+	 select
+	  @Id_loja = Id_Loja, 
+	  @Id_Produto = Id_Produto, 
+	  @QtdeEntrada = QtdeEntrada 
+	 from inserted        
+	 
+	 insert into dbo.Estoque (Id_Loja, Id_Produto, Qtdentrada)
+	  values (@Id_loja, @Id_Produto, @QtdeEntrada)
+	 
+
+END
+
+GO
+
+
+
+USE [CAOESTOQUE]
+GO
+
+/****** Object:  Trigger [dbo].[TR_Saida]    Script Date: 09/24/2014 14:00:11 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER TRIGGER [dbo].[TR_Saida]
+   ON  [dbo].[SaidaProdutosItens]
+  for  INSERT
+AS 
+BEGIN
+	 DECLARE @Id_loja int,
+	         @Id_Produto int,
+	         @Qtdesaida decimal(18, 3),
+	         @TipoCategoria nvarchar(200);
+	 
+	 select
+	  @Id_loja = Id_Loja, 
+	  @Id_Produto = Id_Produto, 
+	  @QtdeSaida = Qtde,
+	  @TipoCategoria = TipoCategoria
+	 from inserted        
+	 
+	 if @TipoCategoria = 'KILO'
+	 begin
+	 	 insert into dbo.Estoque (Id_Loja, Id_Produto, Qtdsaida )
+	  values (@Id_loja, @Id_Produto, @QtdeSaida*1000 )
+	 end
+	 else
+	 
+	 insert into dbo.Estoque (Id_Loja, Id_Produto, Qtdsaida )
+	  values (@Id_loja, @Id_Produto, @QtdeSaida)
+	 
+
+END
+
+GO
+
+

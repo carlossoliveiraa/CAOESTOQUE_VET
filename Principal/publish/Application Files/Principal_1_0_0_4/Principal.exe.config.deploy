@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="Principal.Properties.Settings.SalaoCabelereiroConnectionString"
+            connectionString="Data Source=localhost\SqlExpress;Initial Catalog=SalaoCabelereiro;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+</configuration>

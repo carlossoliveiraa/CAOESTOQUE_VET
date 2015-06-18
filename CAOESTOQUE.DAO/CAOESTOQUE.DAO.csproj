@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59F46317-92EF-4A3B-9ED7-31972B8967AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CAOESTOQUE.DAO</RootNamespace>
+    <AssemblyName>CAOESTOQUE.DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackupMetodos.cs" />
+    <Compile Include="CategoriasMetodos.cs" />
+    <Compile Include="ClientesMetodos.cs" />
+    <Compile Include="EntradaProdutosMetodos.cs" />
+    <Compile Include="PedidoRealizadoMetodos.cs" />
+    <Compile Include="ProdutosMetodos.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelatorioEstoqueMetodos.cs" />
+    <Compile Include="RelatorioPeriodoMetodos.cs" />
+    <Compile Include="SaidaProdutosMetodos.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAOESTOQUE.ENTITY\CAOESTOQUE.ENTITY.csproj">
+      <Project>{d65e4e75-cb0e-4b85-aa5c-43ce60afa250}</Project>
+      <Name>CAOESTOQUE.ENTITY</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAOESTOQUE.REPOSITORIO\CAOESTOQUE.REPOSITORIO.csproj">
+      <Project>{49bdf79f-a9ad-4ca1-bf53-2cf653ad0f6d}</Project>
+      <Name>CAOESTOQUE.REPOSITORIO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
